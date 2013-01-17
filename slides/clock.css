@@ -1,0 +1,10 @@
+
+div.clock{
+position: absolute; 
+text-align: left;
+vertical-align: bottom;
+left: -40px;
+bottom: -40px;
+-webkit-transform: scale(0.5,0.5);
+}
+

@@ -1,0 +1,115 @@
+div #pagecounter {
+	border-radius: 15px;
+  background-color: #444;
+	color: #000
+}
+
+.animated_move {
+	-webkit-transition: all 1s;
+	-webkit-transform-origin: 50% 50%;
+}
+
+div.footer-left {
+position: absolute; 
+text-align: left;
+vertical-align: bottom;
+left: 100px;
+bottom: 5px
+}
+
+div.footer-right {
+position: absolute; 
+text-align: right;
+vertical-align: bottom;
+right: 20px;
+bottom: 20px
+}
+
+div.container {
+		width: 800px;
+		height: 600px;
+		margin-left: auto ;
+		margin-right: auto ;
+		margin-top: auto ;
+		margin-bottom: auto ;
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		font-size: 1.75em;
+		color: #aaa;
+}
+
+.title {
+	text-align: center
+}
+
+.slide h1 {
+  color: #0af;
+  font-weight: normal;
+  font-weight: 100;
+  text-shadow: 0 0 50px #0af, 0 0 3px #fff;
+}
+
+.slide h2 {
+  color: #af0;
+  border-bottom-color: #ccc;
+  font-weight: normal;
+  font-weight: 100;
+  text-shadow: 0 0 15px #af0, 0 0 2px #fff;
+  border-bottom: 1px solid #333;
+}
+.slide h3 {
+  color: #fff;
+  font-weight: normal;
+  font-weight: 100;
+  text-shadow: 0 0 10px #fff, 0 0 2px #fff;
+}
+
+div.mainframe {
+	width:800px;
+	height:600px;
+	overflow:hidden;
+	display:box;
+	position: absolute;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: scale(0.8,0.8);
+}
+
+.anim_transform {
+	-webkit-transition: all 1s;
+	-webkit-transform-origin: 50% 50%;
+}
+
+div.camera {
+	-webkit-transition: all 1s;
+	-webkit-transform-origin: 50% 50%;
+	transition: all 1s;
+	position: absolute;
+}
+div.rotcam {
+	-webkit-transition: all 1s;
+	-webkit-transform-origin: 50% 50%;
+	width:800px;
+	height:600px;
+	transition: all 1s;
+	position: absolute;
+}
+
+div.slide {
+	-webkit-transform-origin: 50% 50%;
+	width:740px;
+	height:540px;
+	overflow:hidden;
+	position: absolute;
+	background: -webkit-linear-gradient(top, #000000 0%,#151515 81%,#303030 100%);
+	border-radius: 15px;
+	padding: 30px;
+	color: #ffffff
+}
+
+tspan.hl_red tspan {
+	fill: #aa1100 !important;
+}
+
+.hl_red {
+	color: #aa1100;
+	fill: #aa1100 !important;
+}

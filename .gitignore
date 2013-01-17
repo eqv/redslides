@@ -1,0 +1,7 @@
+.*.un~
+.*.sw*
+*.js
+old
+slides/mathjax/*
+slides/raphael/*
+slides/join*

@@ -1,0 +1,29 @@
+div.sessionlink{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:100;
+	background-color: #ccc;
+	color: #000;
+	text-align: center;
+}
+
+div.closebutton {
+	float: left;
+	background-color: #aaa;
+}
+
+div.sessionlink > a{
+	color: #000;
+}
+
+div.note_container {
+	position: fixed; 
+	top: 20px;
+	left: 10px;
+	z-index:100;
+	background-color: #ffc;
+	color: #000;
+	opacity: 0.7;
+	font-size:50%
+}
